@@ -1,0 +1,16 @@
+site_name: Awesome website
+
+repo_name: maxmar391.github.io
+
+plugins:
+  - search
+  - mermaid2: ## plugin for diagrams, see https://github.com/fralau/mkdocs-mermaid2-plugin
+      version: 8.11.2
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+  features:
+    - search.suggest ## suggest when typing into search box
+    - search.highlight ## highlight search results
